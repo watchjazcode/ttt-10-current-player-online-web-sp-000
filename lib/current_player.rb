@@ -7,8 +7,9 @@ def turn_count(board) #method that determines how many turns have been played
   #this is what board will look like, but will not be run
   #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board.each do |space| #checking each space individually
-  if position_taken?(board)
-    counter += 1 #everytime we look at ea space, if taken we played one turn
+    if space == "X" || space == "O"
+      counter += 1 #everytime we look at ea space, if taken we played one turn
+    end
   end
 end
 
