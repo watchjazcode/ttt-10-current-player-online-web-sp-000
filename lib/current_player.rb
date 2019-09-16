@@ -11,6 +11,7 @@ def turn_count(board) #method that determines how many turns have been played
       counter += 1 #everytime we look at ea space, if taken we played one turn
     end
   end
+  return counter
 end
 
 
