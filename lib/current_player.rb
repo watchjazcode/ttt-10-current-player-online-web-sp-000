@@ -4,7 +4,11 @@
 
 def turn_count(board)
   counter = 0
-
+  # this is what board will look like, but will not be run
+  #board = [" ", "Yellow", "Blue"]
+  primary_colors.each do |color|
+  puts "Primary Color #{color} is #{color.length} letters long."
+end
 
   end
 end
