@@ -7,7 +7,7 @@ def turn_count(board)
   # this is what board will look like, but will not be run
   #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   board.each do |space|
-  
+  counter += 
 end
 
   end
