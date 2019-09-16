@@ -6,8 +6,8 @@ def turn_count(board)
   counter = 0
   # this is what board will look like, but will not be run
   #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board.each do |color|
-  puts "Primary Color #{color} is #{color.length} letters long."
+  board.each do |space|
+  
 end
 
   end
